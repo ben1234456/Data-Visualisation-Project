@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Data Visualisation Project"/>
+    <meta name="keywords" content="HTML, CSS, D3, Climate Change"/>
+    <meta name="author" content="Ben Jong Sii Lung"/>
+
+    <title>Climate Change</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+    <script src="scripts/GHS_PC_SVG.js"></script>
+
+  </head>
+
+  <body>
+
+    <h1>Climate Change</h1>
+
+    <img id="pic1" src="img/climatechange.png" alt="climatechange">
+
+    <h2>What is Climate Change?</h2>
+
+    <p>Climate change refers to the change in the environmental conditions of the earth. Nowadays,
+      Climate change become a well-known issue to everyone and not many people including me know about
+      the environmental effects that causes by it such as increase in temperature, ice melting,
+       rising sea level and their impacts.</p>
+
+    <h2>What causes Climate Change?</h2>
+
+    <!-- Source:https://www.canada.ca/en/environment-climate-change/services/climate-change/causes.html -->
+
+    <p>Human activity is the main cause of climate change. People burn fossil fuels and convert land from forests to agriculture. Since the beginning of the Industrial Revolution, people have burned more and more fossil fuels and changed vast areas of land from forests to farmland.</p>
+
+    <p>Burning fossil fuels produces carbon dioxide, a <b>greenhouse gas</b>. It is called a greenhouse gas because it produces a <b>“greenhouse effect”</b>. The greenhouse effect makes the earth warmer, just as a greenhouse is warmer than its surroundings.</p>
+
+    <p>Greenhouse gases trap heat and make the planet warmer. Human activities are responsible for almost all of the increase in greenhouse gases in the atmosphere over the last 150 years</p>
+
+    <p>Carbon dioxide is the main cause of human-induced climate change.</p>
+
+    <p>It stays in the atmosphere for a very long time. Other <b>greenhouse gases</b>, such as nitrous oxide, stay in the atmosphere for a long time. Other substances only produce short-term effects.</p>
+
+    <p>Not all substances produce warming. Some, like certain aerosols, can produce cooling.</p>
+
+    <h2>Sources of Greenhouse Gases in the United State in 2018</h2>
+
+    <p id="piechart"></p>
+
+    <p> The largest source of greenhouse gas emissions from human activities in the United States is from burning fossil fuels for electricity, heat, and transportation.<a href="emissions.html"> Click Me </a></p>
+
+    <!-- Source:https://www.epa.gov/ghgemissions/sources-greenhouse-gas-emissions#electricity -->
+
+    <p> The primary sources of greenhouse gas emissions in the United States are: <p>
+
+
+    <ol>
+      <li> <b>Transportation</b> (<b>28.2%</b> of 2018 greenhouse gas emissions) – The transportation sector generates the largest share of greenhouse gas emissions. Greenhouse gas emissions from transportation primarily come from burning fossil fuel for our cars, trucks, ships, trains, and planes. Over 90 percent of the fuel used for transportation is petroleum based, which includes primarily gasoline and diesel.</li>
+      <li> <b>Electricity</b> production (<b>26.9%</b> percent of 2018 greenhouse gas emissions) – Electricity production generates the second largest share of greenhouse gas emissions. Approximately 63 percent of our electricity comes from burning fossil fuels, mostly coal and natural gas.</li>
+      <li> <b>Industry</b> (<b>22.0% </b> of 2018 greenhouse gas emissions) – Greenhouse gas emissions from industry primarily come from burning fossil fuels for energy, as well as greenhouse gas emissions from certain chemical reactions necessary to produce goods from raw materials.</li>
+      <li> <b>Commercial and Residential </b> (<b>12.3%</b> of 2018 greenhouse gas emissions) – Greenhouse gas emissions from businesses and homes arise primarily from fossil fuels burned for heat, the use of certain products that contain greenhouse gases, and the handling of waste.</li>
+      <li> <b>Agriculture</b> (<b>9.9%</b> of 2018 greenhouse gas emissions) – Greenhouse gas emissions from agriculture come from livestock such as cows, agricultural soils, and rice production.</li>
+      <li> <b>Land Use and Forestry</b> (<b>11.6%</b> of 2018 greenhouse gas emissions) – Land areas can act as a sink (absorbing CO2 from the atmosphere) or a source of greenhouse gas emissions. In the United States, since 1990, managed forests and other lands are a net sink, i.e. they have absorbed more CO2 from the atmosphere than they emit.</li>
+    </ol>
+
+    <p> Also, the global greenhouse gas emissions is getting higher and higher every year. <a href="emissions.html"> Click me </a> to view the chart. </p>
+
+    <h2>What are the effects of Climate Change?</h2>
+
+    <!-- Source: https://www.ncdc.noaa.gov/monitoring-references/dyk/anomalies-vs-temperature -->
+    <h3>1. Global Temperature Anomaly</h3>
+    <a href="global_temperature.html"><img class="pic" src="img/temp.jpg" alt="climatechange" width="600" height="300"></a>
+    <p>The adding of heat-trapping greenhouse gases to the atmosphere will increase the global temperature. The <a href="global_temperature.html">chart</a> illustated about the global temperature anomaly from 1850 to 2019. A temperature anomaly is the difference from an average, or baseline, temperature. The baseline temperature is typically computed by averaging 30 or more years of temperature data. A positive anomaly indicates the observed temperature was warmer than the baseline, while a negative anomaly indicates the observed temperature was cooler than the baseline.</p>
+
+    <h3>2. Global Sea Level Rising</h3>
+    <a href="sea_level.html"><img class="pic" src="img/sealevel.jpg" alt="climatechange" width="600" height="300"></a>
+    <p>Sea level can rise by two different mechanisms with respect to climate change. First, as the oceans warm due to an increasing global temperature, seawater expands—taking up more space in the ocean basin and causing a rise in water level. The second mechanism is the melting of ice over land, which then adds water to the ocean. The <a href="sea_level.html">chart</a> shows the global average absolute sea level change from 1880 to 2015.</p>
+
+    <h3>3. Glaciers Melting</h3>
+    <a href="glaciers.html"><img class="pic" src="img/glacier.jpg" alt="climatechange" width="600" height="300"></a>
+    <p>Specifically, since the industrial revolution, carbon dioxide and other greenhouse gas emissions have raised temperatures, even higher in the poles, and as a result, glaciers are rapidly melting, calving off into the sea and retreating on land. The <a href="glaciers.html">chart</a> shows the cumulative mass balance of glaciers worldwide from 1945 to 2015.</p>
+
+    <footer>
+
+      <p>COS30045 Data Visualisation Project</p>
+
+    </footer>
+
+  </body>
+
+</html>

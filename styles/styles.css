@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+  text-align: center;
+  background-color: #00688B;
+  color: white;
+}
+
+h2{
+  margin-top: 30px;
+}
+
+
+
+footer {
+  background-color: #C0C0C0;
+}
+
+p, ol{
+  font-size: 22px;
+}
+
+h1{
+  font-size: 40px;
+}
+
+#pic1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  font: 50px sans-serif;
+  text-anchor: middle;
+}
+
+.line {
+				fill: none;
+				stroke: teal;
+				stroke-width: 0.5;
+}
+
+/* unvisited link */
+a:link {
+  color: #66CCFF;
+  text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+  color: #000066;
+  text-decoration: underline;
+}
+
+/* mouse over link */
+a:hover {
+  color: #0000FF;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.xaxis, .yaxis { font: 16px sans-serif; }
+
+.next, .previous{
+  font-size: 20px;
+}
